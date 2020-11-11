@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#nav-container {
+    width: 1200px;
+    margin: 0 auto;
+    height: 70px;
+}
+
+.nav-bar {
+    background-color: #333;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-bar img {
+    float: left; /* change badck to left */
+    width: inherit;
+    width: 250px;
+    padding-top: 2px;
+}
+
+.nav-bar ul {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 25%
+}
+
+.nav-bar li {
+    list-style-type: none;
+    padding: 0px;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+}
+
+.nav-bar li a {
+    color: black;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    /* might want to change this font */
+    text-decoration: none;
+    color: white;
+    /* might want to change this color */
+    line-height: 70px;
+    padding: 5px 15px;
+    opacity: 0.7;
+}
+
+.nav-bar li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Footer */
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer {
+  background-color: #555;
+  color: #bbb;
+  line-height: 1.5;
+}
+footer a {
+  text-decoration: none;
+  color: #eee;
+}
+a:hover {
+  text-decoration: underline;
+}
+.footer-title {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 1.375rem;
+  padding-bottom: 0.625rem;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.container {
+  flex: 1;
+}
+.footer-main {
+  padding: 1.25rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media only screen and (min-width: 30rem) {
+  .footer-main {
+    justify-content: space-evenly;
+  }
+}
+@media only screen and (min-width: 78rem) {
+  .footer-main {
+    justify-content: space-evenly;
+  }
+}
+.footer-main-item {
+  padding: 1.25rem;
+  min-width: 12.5rem;
+}
+
+/* Footer stay updated */
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+input[type="email"] {
+  border: 0;
+  padding: 0.6rem;
+  margin-top: 0.3rem;
+}
+input[type="submit"] {
+  background-color: #7B2CAF;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+  padding: 0.6rem 0.9rem;
+  margin-top: 0.3rem;
+}
+
+/* Footer bottom section */
+.footer-legal {
+  padding: 0.9rem 1.9rem;
+  background-color: #333;
+}
+.footer-legal-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-legal-list li {
+  margin: 0.13rem 0.6rem;
+  white-space: nowrap;
+}
+/* spaces out the copyright section*/
+.footer-legal-list li:nth-last-child(2) {
+    flex: 1;
+}

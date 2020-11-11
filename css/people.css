@@ -1,0 +1,15 @@
+#professionals {
+    align-items: center;
+
+}
+.professionals-text {
+    color: black;
+    text-align: center;
+}
+
+
+.professionals-image {
+    border-bottom-color: red;
+    width: 50px;
+    height: 50px;
+}

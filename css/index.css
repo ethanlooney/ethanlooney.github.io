@@ -1,0 +1,33 @@
+.working {
+    /*padding-top: 5%;*/
+    padding-bottom: 5%;
+    position: relative;
+    text-align: center;
+}
+
+.working img {
+    display: block;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    overflow: hidden;
+    object-fit: cover;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.working-text {
+    position: absolute;
+    color: black;
+    top: 25%; 
+    left: 15%;
+    border: 5px solid gray;
+    border-radius: 20px;
+    background-color: gray;
+    word-wrap: break-word;
+    width: 20%;
+    max-width: 30em;
+    font-size: 15px;
+}
