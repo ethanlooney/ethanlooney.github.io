@@ -1,0 +1,16 @@
+.Industry{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+.Industry img{
+    width: 100px;
+    height: 100px;
+    padding-top: 2px;
+    width: inherit;
+}
+. Industry Text{
+    font-size: 15px;
+    
+}

@@ -3,31 +3,104 @@
     padding-bottom: 5%;
     position: relative;
     text-align: center;
+
 }
 
 .working img {
     display: block;
     width: 100%;
     height: 500px;
-    background-repeat: no-repeat;
-    background-position: center;
     background-size: 100% auto;
     overflow: hidden;
     object-fit: cover;
-    padding-top: 0%;
-    padding-bottom: 0%;
+    position: relative;
+    /* allows centering based on the imgae */
 }
 
 .working-text {
-    position: absolute;
-    color: black;
-    top: 25%; 
-    left: 15%;
+    /*    color: black;
+    left: 0;
+    right: 0;
+    bottom: 0;
     border: 5px solid gray;
     border-radius: 20px;
     background-color: gray;
     word-wrap: break-word;
     width: 20%;
     max-width: 30em;
-    font-size: 15px;
+    font-size: 15px;*/
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 13em;
+    color: orange;
+    /* temp color */
+}
+
+.get-started a { /*bring the button up to about the guys hand height */
+    font: bold 20px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 10px 10px 10px 10px;
+    border-top: 2px;
+    border-right: 2px;
+    border-bottom: 2px;
+    border-left: 2px;
+    align-content: center;
+    border-radius: 30px;
+    width: 10rem;
+    position: center;
+    left: 0;
+    right: 0;
+    top: 200em;
+}
+
+.get-started a:hover {
+   /* background-color: #7B2CAF;*/
+}
+
+/* Start of next section */
+.informative {
+    display: flex;
+    background-color: ;
+    color: white;
+    padding-right: 10%;
+    padding-left: 10%;
+    
+}
+.formation{
+    justify-content: space-between;
+    padding-right: 7.5%;
+}
+#company-formation{
+    font-size: 32px;
+    
+}
+#company-formation-text{
+    font-size: 20px;
+    line-height: 1.5;
+}
+.services{
+    
+}
+#accounting-services{
+    font-size: 32px;
+}
+#accounting-services-text{
+    font-size: 20px;
+    line-height: 1.5;
+}
+.need{
+    padding-left: 7.5%;
+}
+#what-need{
+    font-size: 32px;
+}
+#what-need-text{
+    font-size: 20px;
+    line-height: 1.5;
+}
+body{
+    background-color: #7B2CAF;
 }

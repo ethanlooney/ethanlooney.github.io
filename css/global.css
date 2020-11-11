@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    /*width: 1000px;*/
 }
 
 #nav-container {
@@ -11,7 +12,7 @@ body {
 
 .nav-bar {
     background-color: #333;
-    height: 70px;
+    height: 80px;
     width: 100%;
     text-align: center;
 }
@@ -20,7 +21,9 @@ body {
     float: left; /* change badck to left */
     width: inherit;
     width: 250px;
-    padding-top: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
 }
 
 .nav-bar ul {
@@ -86,15 +89,15 @@ a:hover {
   color: #fff;
   font-family: "Merriweather", serif;
   font-size: 1.375rem;
-  padding-bottom: 0.625rem;
+  padding-bottom: 0.3rem;
 }
-body {
+body { /* might want to change this as body encompases everything */
   display: flex;
   min-height: 100vh;
   flex-direction: column;
 }
 .container {
-  flex: 1;
+  flex: 1; /* this is the reason that there the footer is on the bottom and there is space below the purple area*/
 }
 .footer-main {
   padding: 1.25rem 2rem;
