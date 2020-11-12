@@ -15,6 +15,7 @@
     object-fit: cover;
     position: relative;
     /* allows centering based on the imgae */
+    filter: blur(3px);
 }
 
 .working-text {
@@ -33,8 +34,8 @@
     left: 0;
     right: 0;
     top: 13em;
-    color: orange;
-    /* temp color */
+    color: #E36D37;
+    /*text-shadow: white 0px 0px 15px;*/
 }
 
 .get-started a { /*bring the button up to about the guys hand height */
@@ -50,10 +51,11 @@
     align-content: center;
     border-radius: 30px;
     width: 10rem;
-    position: center;
-    left: 0;
-    right: 0;
-    top: 200em;
+    position: absolute;
+    top: 65%;
+    left: 43%;
+    
+    /*top: 200em;*/
 }
 
 .get-started a:hover {
