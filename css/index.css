@@ -65,10 +65,10 @@
 /* Start of next section */
 .informative {
     display: flex;
-    background-color: ;
     color: white;
     padding-right: 10%;
     padding-left: 10%;
+    padding-bottom: 10%;
     
 }
 .formation{
