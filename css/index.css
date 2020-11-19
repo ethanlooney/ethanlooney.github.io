@@ -1,3 +1,10 @@
+body {
+    background-color: #7B2CAF;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
 .working {
     /*padding-top: 5%;*/
     padding-bottom: 5%;
@@ -19,26 +26,16 @@
 }
 
 .working-text {
-    /*    color: black;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border: 5px solid gray;
-    border-radius: 20px;
-    background-color: gray;
-    word-wrap: break-word;
-    width: 20%;
-    max-width: 30em;
-    font-size: 15px;*/
     position: absolute;
     left: 0;
     right: 0;
     top: 13em;
     color: #E36D37;
-    /*text-shadow: white 0px 0px 15px;*/
+    font-family: 'Roboto', sans-serif;
+
 }
 
-.get-started a { /*bring the button up to about the guys hand height */
+.get-started a {
     font: bold 20px Arial;
     text-decoration: none;
     background-color: #EEEEEE;
@@ -54,55 +51,61 @@
     position: absolute;
     top: 65%;
     left: 43%;
-    
-    /*top: 200em;*/
 }
 
 .get-started a:hover {
-   /* background-color: #7B2CAF;*/
+    background-color: #7B2CAF;
 }
 
 /* Start of next section */
 .informative {
     display: flex;
     color: white;
+    padding-top: 5%;
     padding-right: 10%;
     padding-left: 10%;
     padding-bottom: 10%;
-    
+
 }
-.formation{
+
+.formation {
     justify-content: space-between;
     padding-right: 7.5%;
 }
-#company-formation{
+
+#company-formation {
     font-size: 32px;
-    
+    padding-bottom: 10px;
+
 }
-#company-formation-text{
+
+#company-formation-text {
     font-size: 20px;
     line-height: 1.5;
 }
-.services{
-    
-}
-#accounting-services{
+
+.services {}
+
+#accounting-services {
     font-size: 32px;
+    padding-bottom: 10px;
 }
-#accounting-services-text{
+
+#accounting-services-text {
     font-size: 20px;
     line-height: 1.5;
 }
-.need{
+
+.need {
     padding-left: 7.5%;
 }
-#what-need{
+
+#what-need {
     font-size: 32px;
+    padding-bottom: 10px;
 }
-#what-need-text{
+
+#what-need-text {
     font-size: 20px;
     line-height: 1.5;
-}
-body{
-    background-color: #7B2CAF;
 }

@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    /*width: 1000px;*/
+    width: 1000px;
 }
 
 #nav-container {
@@ -18,7 +18,7 @@ body {
 }
 
 .nav-bar img {
-    float: left; /* change badck to left */
+    float: left;
     width: inherit;
     width: 250px;
     padding-top: 5px;
@@ -32,7 +32,7 @@ body {
     text-align: center;
     display: inline-block;
     vertical-align: top;
-    padding-right: 25%
+    padding-right: 25%;
 }
 
 .nav-bar li {
@@ -47,11 +47,9 @@ body {
 .nav-bar li a {
     color: black;
     font-size: 16px;
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    /* might want to change this font */
+    font-family: "Avenir LT Pro 65 medium", sans-serif;
     text-decoration: none;
     color: white;
-    /* might want to change this color */
     line-height: 70px;
     padding: 5px 15px;
     opacity: 0.7;
@@ -64,94 +62,105 @@ body {
 
 /* Footer */
 * {
-  box-sizing: border-box;
-  font-family: "Lato", sans-serif;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 ul {
-  list-style: none;
-  padding-left: 0;
+    list-style: none;
+    padding-left: 0;
 }
+
 footer {
-  background-color: #555;
-  color: #bbb;
-  line-height: 1.5;
+    background-color: #555;
+    color: #bbb;
+    line-height: 1.5;
 }
+
 footer a {
-  text-decoration: none;
-  color: #eee;
+    text-decoration: none;
+    color: #eee;
 }
+
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
+
 .footer-title {
-  color: #fff;
-  font-family: "Merriweather", serif;
-  font-size: 1.375rem;
-  padding-bottom: 0.3rem;
+    color: #fff;
+    font-family: "Avenir LT Pro 65 medium", sans-serif;
+    font-size: 1.375rem;
+    padding-bottom: 0.3rem;
 }
-body { /* might want to change this as body encompases everything */
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
+
 .container {
-  flex: 1; /* this is the reason that there the footer is on the bottom and there is space below the purple area*/
+    flex: 1;
+    /* this is the reason that there the footer is on the bottom */
 }
+
 .footer-main {
-  padding: 1.25rem 2rem;
-  display: flex;
-  flex-wrap: wrap;
+    padding: 1.25rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 @media only screen and (min-width: 30rem) {
-  .footer-main {
-    justify-content: space-evenly;
-  }
+    .footer-main {
+        justify-content: space-evenly;
+    }
 }
+
 @media only screen and (min-width: 78rem) {
-  .footer-main {
-    justify-content: space-evenly;
-  }
+    .footer-main {
+        justify-content: space-evenly;
+    }
 }
+
 .footer-main-item {
-  padding: 1.25rem;
-  min-width: 12.5rem;
+    padding: 1.25rem;
+    min-width: 12.5rem;
 }
 
 /* Footer stay updated */
 form {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 input[type="email"] {
-  border: 0;
-  padding: 0.6rem;
-  margin-top: 0.3rem;
+    border: 0;
+    padding: 0.6rem;
+    margin-top: 0.3rem;
 }
+
 input[type="submit"] {
-  background-color: #7B2CAF;
-  color: #fff;
-  cursor: pointer;
-  border: 0;
-  padding: 0.6rem 0.9rem;
-  margin-top: 0.3rem;
+    background-color: #7B2CAF;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 0.6rem 0.9rem;
+    margin-top: 0.3rem;
 }
 
 /* Footer bottom section */
 .footer-legal {
-  padding: 0.9rem 1.9rem;
-  background-color: #333;
+    padding: 0.9rem 1.9rem;
+    background-color: #333;
 }
+
 .footer-legal-list {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 .footer-legal-list li {
-  margin: 0.13rem 0.6rem;
-  white-space: nowrap;
+    margin: 0.13rem 0.6rem;
+    white-space: nowrap;
 }
+
 /* spaces out the copyright section*/
 .footer-legal-list li:nth-last-child(2) {
     flex: 1;

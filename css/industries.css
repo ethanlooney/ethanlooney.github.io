@@ -1,15 +1,65 @@
-.Industry{
+.industry{
     text-align: center;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
-.Industry img{
-    width: 100px;
-    height: 100px;
-    padding-top: 2px;
-    width: inherit;
+#industry_head{
+    padding-bottom: 20px;
+    font-size: 25px;
 }
-.Industry Text{
+.industry_text{
     font-size: 15px;
+    font-family: 'Playfair Display', serif;
+    padding-right: 200px;
+    padding-left: 200px;
+    text-align: left;
+}
+.construction_text{
+    padding-bottom: 10px;
+}
+#construction_title{
+    font-weight: bold;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.farming_text{
+    padding-bottom: 10px;
+}
+#farming_and_agriculture_title{
+    font-weight: bold;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.healthcare_text{
+    padding-bottom: 10px
+}
+#healthcare_title{
+    font-weight: bold;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.manufacturing_text{
+    padding-bottom: 10px;
+}
+#manufacturing_title{
+    font-weight: bold;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#nonprofits_title{
+    font-weight: bold;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#real_estate_title{
+    font-weight: bold;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
